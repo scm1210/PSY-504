@@ -7,8 +7,11 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
+  
+project: 
+  type: website
+  output-dir: docs
+  
 page-layout: full
 title-block-banner: true
 ---
-
-Testing to see where this produces text

@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: profile.jpg
+image: headshot.png
 about:
   template: solana
   links:
@@ -12,4 +12,6 @@ about:
       href: https://github.com/scm1210
 ---
 
-About this blog
+About this blog.
+
+This is a test to see if things work properly in developing my blog

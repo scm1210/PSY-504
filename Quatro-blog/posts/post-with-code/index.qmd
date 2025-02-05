@@ -4,6 +4,10 @@ author: "Steven Mesquiti"
 date: "2025-02-05"
 categories: [news, code, analysis]
 image: "image.jpg"
+
+project: 
+  type: website
+  output-dir: docs
 ---
 
 This is a post with executable code.
