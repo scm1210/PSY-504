@@ -1,0 +1,15 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: solana
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/StevenMesquiti
+    - icon: github
+      text: Github
+      href: https://github.com/scm1210
+---
+
+About this blog
