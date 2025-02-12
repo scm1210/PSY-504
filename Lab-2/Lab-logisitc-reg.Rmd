@@ -30,9 +30,9 @@ if (!require("pacman")) install.packages("pacman") #run this if you don't have p
 library(pacman)
 
 pacman::p_load(tidyverse, DT, lmerTest, lme4, reactable,
-               broom.mixed, knitr, kableExtra, ggrepel, mgcv, visreg,
-               dplyr, ggplot2, readr, modelsummary, tidyr, 
-               easystats, broom, emmeans, marginaleffects, performance, arm,
+               broom.mixed, knitr, kableExtra, ggrepel,
+              modelsummary, tidyr, easystats, broom, emmeans, 
+              marginaleffects, performance, arm,
                install = TRUE)
 
 palette <- c(
