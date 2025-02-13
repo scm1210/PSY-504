@@ -1,24 +1,26 @@
 ---
-title: "Logistic Regression"
+title: "Lab: Logistic Regression"
+subtitle: "Princeton University"
 author: "Steven Mesquiti"
-date: "`r Sys.Date()`"
-output:
-  html_document:
-    code_folding: hide
-    df_print: paged
-    highlight: tango
-    theme: united
-    toc: yes
-    toc_float:
-      collapsed: yes
-      smooth_scroll: yes
-  github_document:
+output: 
+  tufte::tufte_html:
+    css: 
+    tufte_variant: "envisioned"
+    highlight: github-dark
+    fig_height: 10
+    fig_width: 16
     toc: true
-    toc_depth: 2
-editor_options: 
-  markdown: 
-    wrap: 72
+    toc_depth: 1
+execute: 
+  message: false
+  warning: false
+format: 
+  html:
+    code-fold: true
+    code-overflow: wrap
+engine: knitr
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, cache = FALSE,fig.path = "Lab-2-figs/fig_")
@@ -563,6 +565,4 @@ ses_plot
 ```{r plot-polviews, echo=FALSE, fig.cap="Figure 3: Effect of Political Views on Satisfaction with Mass Transportation", fig.height=10, fig.width=12}
 pol_plot
 ```
-
-
 
