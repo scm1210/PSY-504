@@ -2,6 +2,8 @@
 title: "Lab: Logistic Regression"
 subtitle: "Princeton University"
 author: "Steven Mesquiti"
+categories: [code, lab]
+output-dir: docs
 output: 
   tufte::tufte_html:
     css: 
@@ -19,6 +21,9 @@ format:
     code-fold: true
     code-overflow: wrap
 engine: knitr
+project: 
+  type: website
+  output-ui: false
 ---
 
 
