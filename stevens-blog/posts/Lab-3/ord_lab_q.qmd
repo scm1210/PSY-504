@@ -14,10 +14,7 @@ output:
 execute: 
   message: false
   warning: false
-format: 
-  html:
-    code-fold: true
-    code-overflow: wrap
+format: html
 engine: knitr
 ---
 
